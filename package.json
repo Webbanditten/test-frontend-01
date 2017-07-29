@@ -1,15 +1,13 @@
 {
-  "name": "react-playground",
+  "name": "test-frontend-01",
   "version": "1.0.0",
-  "description": "React playground",
+  "description": "test-frontend-01",
   "scripts": {
     "prestart": "babel-node tools/startMessage.js",
-    "start": "npm-run-all --parallel test:watch open:src lint:watch",
+    "start": "npm-run-all --parallel open:src lint:watch",
     "open:src": "babel-node tools/srcServer.js",
     "lint": "node_modules/.bin/esw webpack.config.* src tools",
-    "lint:watch": "npm run lint -- --watch",
-    "test": "mocha --reporter progress tools/testSetup.js \"src/**/*.test.js\"",
-    "test:watch": "npm run test -- --watch"
+    "lint:watch": "npm run lint -- --watch"
   },
   "author": "Patrick Nærvig Wøhlk",
   "license": "MIT",
@@ -24,7 +22,8 @@
     "react-router-redux": "4.0.4",
     "redux": "3.5.2",
     "redux-thunk": "2.0.1",
-    "toastr": "2.1.2"
+    "toastr": "2.1.2",
+    "sweetalert2":"6.6.6"
   },
   "devDependencies": {
     "babel-cli": "6.8.0",
