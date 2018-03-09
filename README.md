@@ -1,4 +1,3 @@
-# test-frontend-01
 # Task Description
 Build a react application (using Redux)
 1. The application will have a single input text box that will take in an alpha numeric value
@@ -33,6 +32,7 @@ by val5.
 4. You will need to provide your own mock implementation of the service end-points.
 5. Feel free to style the page as nicely as you like.
 
+# How to run the project
 ## Get Started
 1. **Install [Node 6](https://nodejs.org)**.
 2. **Clone this repository.** - `git clone https://github.com/Webbanditten/test-frontend-01.git` or [download the zip](https://github.com/Webbanditten/test-frontend-01/archive/master.zip)
